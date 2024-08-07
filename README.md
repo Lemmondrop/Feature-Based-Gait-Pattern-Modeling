@@ -29,10 +29,17 @@ The order of use of the files is
 
 If you went through the above files in order
 
-You can use the Raw Data Preprocessing code to preprocess the data of the real-time current consumption to get the gait data file with the Envelope process applied and the gait data file with the Smoothing process applied using the Kalman Filter.
+The Raw Data Preprocessing code runs through the Flow process shown in the image below, resulting in two data files: an enveloped gait data Excel file and a gait data Excel file that has been smoothed by applying a Kalman-Filter.
 
 ![image](https://github.com/user-attachments/assets/fb01a6e0-7e5c-4ce8-aeae-f8dc6d8dbbd4)
 
-Then, in the Gait Points Extraction process, you can get the data of gait points P1, P2, and P3 for each subject, and it is recommended to organize each result in a separate excel file.
+Then, apply the Gait Points Extraction code file to extract the gait points, and the three gait points are located as shown in the following image,
+![Fig 7  Gait Points](https://github.com/user-attachments/assets/df12b3e3-d5b1-4eb8-84cb-9e3ecadc34ee)
+with P1 being the start of the gait, P2 being the point where the gait data is at its lowest value, and P3 being the point where the heel of the opposite foot starts to fall off after some time from P2.
+
 Finally, we import an Excel file that organizes the results of P1, P2, and P3 by subject to proceed with the gait analysis.
 Inside, we have implemented each method and written code for Boxplot and visualization.
+
+Below is an image of the results when visualized using this code.
+![Fig 8  BMI groups gait points average](https://github.com/user-attachments/assets/4648a7a8-ef2d-48cb-9b27-6a1880a6fe0e)
+
