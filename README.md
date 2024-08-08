@@ -34,6 +34,7 @@ The Raw Data Preprocessing code runs through the Flow process shown in the image
 ![image](https://github.com/user-attachments/assets/fb01a6e0-7e5c-4ce8-aeae-f8dc6d8dbbd4)
 
 Then, apply the Gait Points Extraction code file to extract the gait points, and the three gait points are located as shown in the following image,
+
 ![Fig 7  Gait Points](https://github.com/user-attachments/assets/df12b3e3-d5b1-4eb8-84cb-9e3ecadc34ee)
 
 with P1 being the start of the gait, P2 being the point where the gait data is at its lowest value, and P3 being the point where the heel of the opposite foot starts to fall off after some time from P2.
