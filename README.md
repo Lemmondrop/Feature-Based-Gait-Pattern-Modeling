@@ -10,6 +10,8 @@ project has been published in SCIE(MDPI, Electronics)
 
 * __DOI: https://doi.org/10.3390/electronics12204201__
 
+The article is titled __"Feature-Based Gait Pattern Modeling on a Treadmill"__
+
 ## Notice
 
 Note that the code in this git is __not fully written, Different users will have different file paths and image filenames, so you'll need to modify those before using it__. 
